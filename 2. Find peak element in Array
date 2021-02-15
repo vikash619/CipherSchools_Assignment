@@ -34,6 +34,6 @@ int main()
     
     int size = sizeof(arr)/sizeof(arr[0]);
     int peak = peakElement(arr,size);
-    cout<<"Peak Elemen is "<<peak<<endl;
+    cout<<"Peak Elemen is at Index "<<peak<<endl;
     return 0;
 }
