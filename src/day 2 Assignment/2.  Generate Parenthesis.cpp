@@ -1,5 +1,6 @@
 
 # include<iostream> 
+using namespace std;
 # define M_S 100 
 
 void print_Parenthesis(int pos, int n, int open, int close); 
@@ -17,7 +18,7 @@ void print_Parenthesis(int pos, int n, int open, int close)
 	
 	if(close == n) 
 	{ 
-		printf("%s \n", str); 
+		cout<<str<<endl; 
 		return; 
 	} 
 	else
